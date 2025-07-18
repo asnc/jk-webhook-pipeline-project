@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "Hello from pipeline"
+                echo "Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile"
             }
         }
     }
